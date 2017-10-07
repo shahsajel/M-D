@@ -70,33 +70,33 @@
 	<div id="About-me"><a href="#About-me">
 			<div class="tabs"></a><div class = "encapsulate">
 				<div class="w3-bar w3-black">
-    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">London</button>
-    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Paris</button>
-    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Tokyo</button>
+    <button class="w3-bar-item w3-button tablink w3-red" onclick="openTab(event,'Music')">Music</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Media')">Media</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Art')">Art</button>
   </div>
 <div class = "Music">
 	<div class = "Music_layout">
-  <div id="London" class="w3-contai w3-border city">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
+  <div id="Music" class="w3-contai w3-border city">
+    <h2>Music</h2>
+    <p>Generated playlists</p>
   </div>
 </div>
 </div>
 
-<div class = "Movies">
-	<div class = Movies_layout>
-  <div id="Paris" class="w3-container w3-border city" style="display:none">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p>
+<div class = "Media">
+	<div class = "Movies_layout">
+  <div id="Media" class="w3-container w3-border city" style="display:none">
+    <h2>Media</h2>
+    <p>Recommend TV shows and movies</p>
   </div>
 </div>
 </div>
 
 <div class = "Art">
 	<div class= "Art_layout">
-  <div id="Tokyo" class="w3-container w3-border city" style="display:none">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
+  <div id="Art" class="w3-container w3-border city" style="display:none">
+    <h2>Art</h2>
+    <p>Artwork</p>
   </div>
 </div>
 </div>
@@ -104,9 +104,9 @@
 </div>
 
 <script>
-function openCity(evt, cityName) {
+function openTab(evt, tabName) {
   var i, x, tablinks;
-  x = document.getElementsByClassName("city");
+  x = document.getElementsByClassName("tabName");
   for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
   }
@@ -114,7 +114,7 @@ function openCity(evt, cityName) {
   for (i = 0; i < x.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " w3-red";
 }
 </script>
