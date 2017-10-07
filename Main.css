@@ -151,12 +151,13 @@ button:hover{
 /*
  CSS for the main interaction
 */
+/*
+ CSS for the main interaction
+*/
 .tabset > input[type="radio"] {
   position: absolute;
   left: -200vw;
-	font-family: 'Inconsolata';
 }
-
 
 .tabset .tab-panel {
   display: none;
@@ -171,11 +172,9 @@ button:hover{
   display: block;
 }
 
-
 /*
  Styling
 */
-
 
 .tabset > label {
   position: relative;
@@ -184,9 +183,9 @@ button:hover{
   border: 1px solid transparent;
   border-bottom: 0;
   cursor: pointer;
+	font-family: 'Inconsolata', sans-serif;
   font-weight: 600;
-	font-family: 'Inconsolata';
-
+}
 
 .tabset > label::after {
   content: "";
@@ -195,33 +194,38 @@ button:hover{
   bottom: 10px;
   width: 22px;
   height: 4px;
+	font-family: 'Inconsolata', sans-serif;
   background: #8d8d8d;
-	font-family: 'Inconsolata';
-
 }
 
 .tabset > label:hover,
 .tabset > input:focus + label {
   color: #06c;
+	font-family: 'Inconsolata', sans-serif;
+
 }
 
 .tabset > label:hover::after,
 .tabset > input:focus + label::after,
 .tabset > input:checked + label::after {
   background: #06c;
+	font-family: 'Inconsolata', sans-serif;
+
 }
 
 .tabset > input:checked + label {
   border-color: #ccc;
   border-bottom: 1px solid #fff;
   margin-bottom: -1px;
-	font-family: 'Inconsolata';
+	font-family: 'Inconsolata', sans-serif;
 
 }
+
+
 .tab-panel {
   padding: 30px 0;
   border-top: 1px solid #ccc;
-	font-family: 'Inconsolata';
+	font-family: 'Inconsolata', sans-serif;
 
 }
 
@@ -233,6 +237,7 @@ button:hover{
 *:after {
   box-sizing: border-box;
 }
+
 
 .tabset {
   max-width: 65em;
