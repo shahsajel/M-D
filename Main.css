@@ -11,7 +11,7 @@ html, body{
 .intro{
 	height: 100%;
 	width: 100%;
-	background: black;
+	background-image: url('img/moody.jpg');
 	background-size: cover;
 	text-align: center;
 	padding: 10% 0%;
@@ -25,7 +25,7 @@ html, body{
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 300%;
 	font-weight: 400;
-	color: black;
+	color:#D8D8D8;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 5% 3%;
@@ -33,7 +33,7 @@ html, body{
 	margin:40px auto;
 	width: 120px;
   	height: 50px;
-	background: #D8D8D8;
+	background: black;
 	border-radius: 50%;
 	letter-spacing: 5px;
 	transition: all .2s;
@@ -124,13 +124,14 @@ input{
 	font-size: 230%;
 }
 .w3-bar{
+	width: 100%;
 	background: grey;
 }
 button{
 	background: transparent;
 	border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 14.75%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -141,7 +142,6 @@ button:hover{
 	background: orange;
 	border: none;
     color: green;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -154,18 +154,37 @@ button:hover{
 	border-width: 0px;
 }
 .Music{
+	padding-top: .01%;
 	height: 100%;
 	width: 100%;
 	background: red;
 }
+.Music_layout{
+	padding-left: 2%;
+}
 .Movies{
+	padding-top: .01%;
 	height: 100%;
 	width: 100%;
 	background: blue;
 }
+.Movies_layout{
+	padding-left: 2%;
+}
 .Art{
+	padding-top: .01%;
 	height: 100%;
 	width: 100%;
 	background: green;
 }
-
+.Art_layout{
+	padding-left: 2%;
+}
+.tabs{
+	padding: 10%;
+	background: black;
+}
+.encapsulate{
+	background: white;
+	padding: .2%;
+}
