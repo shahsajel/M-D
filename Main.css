@@ -131,7 +131,7 @@ button{
 	background: transparent;
 	border: none;
     color: white;
-    padding: 10px 14.75%;
+    padding: 10px 14.7%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -181,6 +181,7 @@ button:hover{
 	padding-left: 2%;
 }
 .tabs{
+	height: 80%;
 	padding: 10%;
 	background: black;
 }
