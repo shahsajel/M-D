@@ -32,7 +32,7 @@ html, body{
 	text-align: center;
 	margin:40px auto;
 	width: 120px;
-  height: 50px;
+  	height: 50px;
 	background: #D8D8D8;
 	border-radius: 50%;
 	letter-spacing: 5px;
@@ -92,7 +92,7 @@ input{
 	transform:scale(1.3,1.3);
     -webkit-transform:scale(1.3,1.3);
     -moz-transform:scale(1.3,1.3);
-    height: 100px;
+    height: 50%;
     width: 50%;
     border-radius: 0%
 
