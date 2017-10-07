@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/MUD.iml" filepath="$PROJECT_DIR$/MUD.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Moood Website V1.iml" filepath="$PROJECT_DIR$/Moood Website V1.iml" />
+>>>>>>> ce7d7ec84b6df681ae0b0d11bbbb357eda952ed2
     </modules>
   </component>
 </project>
