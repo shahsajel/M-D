@@ -123,12 +123,49 @@ input{
 .question{
 	font-size: 230%;
 }
-
-.parallax-window {
-    height: 100%;
-    width: 100%;
-    background: transparent;
-    padding: 1px;
-    margin: 0px;
-
+.w3-bar{
+	background: grey;
 }
+button{
+	background: transparent;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+	background: orange;
+	border: none;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.w3-red{
+	color: white;
+	background: red;
+	border-width: 0px;
+}
+.Music{
+	height: 100%;
+	width: 100%;
+	background: red;
+}
+.Movies{
+	height: 100%;
+	width: 100%;
+	background: blue;
+}
+.Art{
+	height: 100%;
+	width: 100%;
+	background: green;
+}
+
