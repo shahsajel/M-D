@@ -33,7 +33,7 @@ html, body{
 	margin:40px auto;
 	width: 120px;
   	height: 50px;
-	background: black;
+	background: white;
 	border-radius: 50%;
 	letter-spacing: 5px;
 	transition: all .2s;
