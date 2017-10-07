@@ -25,7 +25,7 @@ html, body{
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 300%;
 	font-weight: 400;
-	color:#D8D8D8;
+	color: #D8D8D8;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 5% 3%;
@@ -61,7 +61,7 @@ input{
   height: 32px;
   border: 1px solid 	#161629;
   background-size: 14px auto;
-	background-color: #D8D8D8;
+  background-color: #D8D8D8;
   border-radius: 50%;
   z-index: 2;
   -webkit-animation: bounce 2s infinite 2s;
@@ -131,7 +131,7 @@ button{
 	background: transparent;
 	border: none;
     color: white;
-    padding: 10px 14.75%;
+    padding: 10px 14.7%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -176,4 +176,16 @@ button:hover{
 	height: 100%;
 	width: 100%;
 	background: green;
+}
+.Art_layout{
+	padding-left: 2%;
+}
+.tabs{
+	height: 80%;
+	padding: 10%;
+	background: black;
+}
+.encapsulate{
+	background: white;
+	padding: .2%;
 }
