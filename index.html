@@ -39,7 +39,7 @@
 </head>
 <body>
 <div id="Intro"><a href="#Intro"></a></div>
-		<section class="intro">
+		<div class="intro">
 			<div class = "inner">
 			<div class= "btn" type = button align = "center"><span>MÜD</span>
 			<div class= "content" align = "center">
@@ -62,63 +62,30 @@
 			</div>
 		</div>
 			</div>
-		</section>
+		</div>
 	</div>
 </div>
 
 
-	<div id="About-me"><a href="#About-me">
-			<div class="tabs"></a><div class = "encapsulate">
-				<div class="w3-bar w3-black">
-    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">London</button>
-    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Paris</button>
-    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Tokyo</button>
+  <div class="tab-panels">
+    <section id="marzen" class="tab-panel">
+      <h2>6A. Märzen</h2>
+      <p><strong>Overall Impression:</strong> An elegant, malty German amber lager with a clean, rich, toasty and bready malt flavor, restrained bitterness, and a dry finish that encourages another drink. The overall malt impression is soft, elegant, and complex, with a rich aftertaste that is never cloying or heavy.</p>
+      <p><strong>History:</strong> As the name suggests, brewed as a stronger “March beer” in March and lagered in cold caves over the summer. Modern versions trace back to the lager developed by Spaten in 1841, contemporaneous to the development of Vienna lager. However, the Märzen name is much older than 1841; the early ones were dark brown, and in Austria the name implied a strength band (14 °P) rather than a style. The German amber lager version (in the Viennese style of the time) was first served at Oktoberfest in 1872, a tradition that lasted until 1990 when the golden Festbier was adopted as the standard festival beer.</p>
+  </section>
+    <section id="rauchbier" class="tab-panel">
+      <h2>6B. Rauchbier</h2>
+      <p><strong>Overall Impression:</strong>  An elegant, malty German amber lager with a balanced, complementary beechwood smoke character. Toasty-rich malt in aroma and flavor, restrained bitterness, low to high smoke flavor, clean fermentation profile, and an attenuated finish are characteristic.</p>
+      <p><strong>History:</strong> A historical specialty of the city of Bamberg, in the Franconian region of Bavaria in Germany. Beechwood-smoked malt is used to make a Märzen-style amber lager. The smoke character of the malt varies by maltster; some breweries produce their own smoked malt (rauchmalz).</p>
+    </section>
+    <section id="dunkles" class="tab-panel">
+      <h2>6C. Dunkles Bock</h2>
+      <p><strong>Overall Impression:</strong> A dark, strong, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
+      <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a brewing center and popular exporter in the days of the Hanseatic League (14th to 17th century). Recreated in Munich starting in the 17th century. The name “bock” is based on a corruption of the name “Einbeck” in the Bavarian dialect, and was thus only used after the beer came to Munich. “Bock” also means “Ram” in German, and is often used in logos and advertisements.</p>
+    </section>
   </div>
-<div class = "Music">
-	<div class = "Music_layout">
-  <div id="London" class="w3-contai w3-border city" >
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
-  </div>
-</div>
-</div>
 
-<div class = "Movies">
-	<div class = Movies_layout>
-  <div id="Paris" class="w3-container w3-border city" style="display:none;">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
-  </div>
 </div>
 </div>
-
-<div class = "Art">
-	<div class= "Art_layout">
-  <div id="Tokyo" class="w3-container w3-border city" style="display:none;">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-<script>
-function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " w3-red";
-}
-</script>
-
-
 </body>
 </html>
