@@ -25,7 +25,7 @@ html, body{
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 300%;
 	font-weight: 400;
-	color:#D8D8D8;
+	color: #D8D8D8;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 5% 3%;
@@ -33,7 +33,7 @@ html, body{
 	margin:40px auto;
 	width: 120px;
   	height: 50px;
-	background: white;
+	background: black;
 	border-radius: 50%;
 	letter-spacing: 5px;
 	transition: all .2s;
@@ -61,7 +61,7 @@ input{
   height: 32px;
   border: 1px solid #000000;
   background-size: 14px auto;
-	background-color: #D8D8D8;
+  background-color: #D8D8D8;
   border-radius: 50%;
   z-index: 2;
   -webkit-animation: bounce 2s infinite 2s;
