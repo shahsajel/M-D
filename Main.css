@@ -155,7 +155,8 @@ button:hover{
 }
 .Music{
 	padding-top: .01%;
-	height: 100%;
+	padding-bottom: 20%;
+	margin-bottom: 0;
 	width: 100%;
 	background: red;
 }
@@ -163,8 +164,9 @@ button:hover{
 	padding-left: 2%;
 }
 .Movies{
+	margin-top: 0;
 	padding-top: .01%;
-	height: 100%;
+	padding-bottom: 20%;
 	width: 100%;
 	background: blue;
 }
@@ -173,7 +175,6 @@ button:hover{
 }
 .Art{
 	padding-top: .01%;
-	height: 100%;
 	width: 100%;
 	background: green;
 }
@@ -186,6 +187,7 @@ button:hover{
 	background: black;
 }
 .encapsulate{
+	height: 490px;
 	background: white;
 	padding: .2%;
 }
