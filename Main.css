@@ -16,50 +16,6 @@ html, body{
 	display: table;
 	top: 0;
 }
-.intro .inner{
-	margin:0 auto;
-	margin-top: 100px;
-	vertical-align: middle;
-	max-width: 500px;
-	height: 600px;
-	background: rgba(0,0,0,0.4);
-}
-.content {
-	max-width: 600px;
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 20%;
-	z-index: 2;
-	position: relative;
-}
-.content h1{
-	font-family: 'Yantramanav', sans-serif;
-	font-size: 600%;
-	font-weight: 100;
-	color: #e1efe9;
-	line-height: 0%;
-	padding-top: 50px;
-}
-.content h2{
-	font-weight: 100;
-	letter-spacing: 4;
-	font-size: 40px;
-	color: #e1efe9;
-
-}
-.content h3{
-	font-weight: 100;
-	letter-spacing: 4;
-	font-size: 20px;
-	color: #e1efe9;
-	padding: 0px;
-
-}
-.prof-pic {
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-}
 .btn {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 145%;
@@ -87,6 +43,7 @@ html, body{
     margin: 0px;
 
 }
+<<<<<<< HEAD
 .parallax-window h4{
 	z-index: 2;
 	position: relative;
@@ -284,3 +241,5 @@ html, body{
 	height: 120px;
 	width: 120px;
 	}
+=======
+>>>>>>> bba2bf2adadde48483afbb5ebfc69581e65ac2e2
