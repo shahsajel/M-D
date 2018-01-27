@@ -199,7 +199,7 @@ button:hover{
 
 .tabset > label:hover,
 .tabset > input:focus + label {
-  color: #06c;
+  color: #b0a7cc;
 	font-family: 'Inconsolata', sans-serif;
 
 }
@@ -207,7 +207,7 @@ button:hover{
 .tabset > label:hover::after,
 .tabset > input:focus + label::after,
 .tabset > input:checked + label::after {
-  background: #06c;
+  background: #b0a7cc;
 	font-family: 'Inconsolata', sans-serif;
 
 }
@@ -246,6 +246,8 @@ button:hover{
 	padding: 10%;
 	height: 100%;
 	width: 100%;
+	background-color: white;
+
 }
 
 .fadein img {
